@@ -1,0 +1,4 @@
+name: fdoc
+
+packages:
+- path: lib

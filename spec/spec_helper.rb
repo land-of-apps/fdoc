@@ -3,6 +3,9 @@ require 'fdoc/cli'
 require 'rspec'
 require 'tmpdir'
 
+# APPMAP
+require 'appmap/rspec'
+
 Dir.glob(File.expand_path("../support/*.rb", __FILE__)).each { |f| require f }
 
 RSpec.configure do |config|
